@@ -1,0 +1,15 @@
+eureka:
+   client:
+      registerWithEureka: false
+      fetchRegistry: false
+server:
+   port: 8761
+
+
+##API- Gateway
+#zuul:
+#   prefix: /api
+#   routes:
+#      eurekaclient:
+#         path: /eurekaclient/**
+#         serviceid: Eureka-Client
