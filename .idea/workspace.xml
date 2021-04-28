@@ -2,82 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c26b3cf6-473c-465a-bc07-398a22bb585f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/OTS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-Gateway-ZUUL/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-Gateway-ZUUL/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-Gateway-ZUUL/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-Gateway-ZUUL/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-Gateway-ZUUL/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-Gateway-ZUUL/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-Gateway-ZUUL/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-Gateway-ZUUL/src/main/java/com/tution/APIGatewayZUUL/ApiGatewayZuulApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-Gateway-ZUUL/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-Gateway-ZUUL/src/test/java/com/tution/APIGatewayZUUL/ApiGatewayZuulApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/ds/project/clientapp/APIGatway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/test/java/com/ds/project/clientapp/ClientAppApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/test/java/com/ds/project/clientapp/EnableZuulProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-class-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-class-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-class-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-class-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-class-service/client-app-payment/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-class-service/client-app-payment/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-class-service/client-app-payment/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-class-service/client-app-payment/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-class-service/client-app-payment/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-class-service/client-app-payment/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-class-service/client-app-payment/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-class-service/client-app-payment/src/main/java/com/ds/project/clientapp/ClassAppApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-class-service/client-app-payment/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-class-service/client-app-payment/src/test/java/com/ds/project/clientapp/ClientAppApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-class-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-class-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-class-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-class-service/src/main/java/com/ds/project/clientapp/ClientAppApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-class-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-class-service/src/test/java/com/ds/project/clientapp/ClientAppApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-file-upload/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-file-upload/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-file-upload/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-file-upload/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-file-upload/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-file-upload/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-file-upload/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-file-upload/src/main/java/com/ds/project/clientapp/FileUploadAppApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-file-upload/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-file-upload/src/test/java/com/ds/project/clientapp/ClientAppApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-payment/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-payment/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-payment/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-payment/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-payment/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-payment/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-payment/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-payment/src/main/java/com/ds/project/clientapp/PaymentApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-payment/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-payment/src/test/java/com/ds/project/clientapp/ClientAppApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-user-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-user-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-user-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-user-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-user-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-user-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-user-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-user-service/src/main/java/com/ds/project/clientapp/UserManagementAppApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-user-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app-user-service/src/test/java/com/ds/project/clientapp/ClientAppApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +16,15 @@
         <option value="HansaniUma &lt;49451900+hansaniuma@users.noreply.github.com&gt;" />
       </list>
     </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_COMMON_BRANCH" value="master" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/discovery-server" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="ProjectId" id="1rm9sKDUdTNqiLJh36WlhrOJA5I" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -104,7 +37,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Test projects/Test5/git version control tests" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -119,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1619570603775</updated>
-      <workItem from="1619570605376" duration="1308000" />
+      <workItem from="1619570605376" duration="3100000" />
     </task>
     <task id="LOCAL-00001" summary="Create README.md">
       <created>1619571600203</created>
@@ -128,7 +61,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619571600203</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Create README.md">
+      <created>1619572035534</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619572035534</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

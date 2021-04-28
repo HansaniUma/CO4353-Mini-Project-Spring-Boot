@@ -11,3 +11,20 @@ spring:
 server:
     port: 8762
 
+#Gate- way configurations
+zuul:
+    prefix: /api
+    routes:
+        class-service:
+            path: /class-service/**
+            serviceId: CLASS-SERVICE
+        file-upload-service:
+            path: /file-upload-service/**
+            serviceId: FILE-UPLOAD-SERVICE
+        payement-service:
+            path: /payment-service/**
+            serviceId: PAYMENT-SERVICE
+        user-service:
+            path: /user-service/**
+            serviceId: USER-SERVICE
+
