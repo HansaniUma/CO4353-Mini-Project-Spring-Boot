@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c26b3cf6-473c-465a-bc07-398a22bb585f" name="Default Changelist" comment="">
+    <list default="true" id="c26b3cf6-473c-465a-bc07-398a22bb585f" name="Default Changelist" comment="Create README.md">
+      <change afterPath="$PROJECT_DIR$/client-app-file-upload/src/main/java/com/ds/project/clientapp/controller/fileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-app-file-upload/src/main/java/com/ds/project/clientapp/exception/FileNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-app-file-upload/src/main/java/com/ds/project/clientapp/exception/FileStorageException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-app-file-upload/src/main/java/com/ds/project/clientapp/model/DBFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-app-file-upload/src/main/java/com/ds/project/clientapp/payload/UploadFileResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-app-file-upload/src/main/java/com/ds/project/clientapp/repository/DBFileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-app-file-upload/src/main/java/com/ds/project/clientapp/service/DBFileStorageService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app-file-upload/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client-app-file-upload/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app-file-upload/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/client-app-file-upload/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +53,19 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,6 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1619570603775</updated>
       <workItem from="1619570605376" duration="3100000" />
+      <workItem from="1619967699775" duration="1400000" />
     </task>
     <task id="LOCAL-00001" summary="Create README.md">
       <created>1619571600203</created>
