@@ -1,8 +1,5 @@
 package com.ds.project.clientapp.beans;
 
-import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.stereotype.Component;
-
 import java.util.Date;
 
 
@@ -13,13 +10,17 @@ public class StFileUploadValue {
     private int class_id;
     private Date submitted_date;
     private String path;
+    private String fileType;
+    private byte[] data;
 
-    public StFileUploadValue(int file_id, int st_id, int class_id, Date submitted_date, String path) {
+    public StFileUploadValue(int file_id, int st_id, int class_id, Date submitted_date, String path, String fileType, byte[] data) {
         this.file_id = file_id;
         this.st_id = st_id;
         this.class_id = class_id;
         this.submitted_date = submitted_date;
         this.path = path;
+        this.fileType = fileType;
+        this.data = data;
     }
 
     public StFileUploadValue() {

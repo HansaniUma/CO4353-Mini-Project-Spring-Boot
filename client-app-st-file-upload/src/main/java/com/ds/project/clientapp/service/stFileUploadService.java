@@ -5,35 +5,41 @@ import com.ds.project.clientapp.repository.StoragePropertiesRepo;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+import java.util.List;
+import java.util.Optional;
 
 @Service
 public class stFileUploadService {
-    private final Path fileStorageLocation;
 
-//    StoragePropertiesRepo storagePropertiesRepo;
+    public stFileUploadService() {  }
 
-    public stFileUploadService(StFileUpload stFileUpload) {
-        this.fileStorageLocation = Paths.get(stFileUpload.getPath());
+    private StoragePropertiesRepo storagePropertiesRepo;
 
-
-//        try {
-//
-//            Files.createDirectories(this.fileStorageLocation);
-//
-//        } catch (Exception ex) {
-//
-//            throw new DocumentStorageException("Could not create the directory where the uploaded files will be stored.", ex);
-//
-//        }
+    public StFileUpload savefile(StFileUpload stFileUpload){
+        return StoragePropertiesRepo.save(stFileUpload);
     }
 
 
-    public static String uploadFile(MultipartFile file) {
-        return "";
+    public Optional<StFileUpload> getFile(Integer fileId) {
+        return StoragePropertiesRepo.findById(fileId);
     }
+
+    public List<StFileUpload> getFiles(){
+        return StoragePropertiesRepo.findAll();
+    }
+
+    public static StFileUpload saveMultipleFile(MultipartFile file) {
+        String docname = file.getOriginalFilename();
+        try {
+            StFileUpload fileUpload = new StFileUpload();
+            return StoragePropertiesRepo.save(fileUpload);
+        }
+        catch(Exception e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
 
 }
 

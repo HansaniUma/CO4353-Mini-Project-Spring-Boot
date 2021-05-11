@@ -27,8 +27,30 @@ public class StFileUpload{
     @Column
     private String path;
 
+    @Column
+    private String fileType;
+
+    @Lob
+    private byte[] data;
+
     public int getFile_id() {
         return file_id;
+    }
+
+    public String getFileType() {
+        return fileType;
+    }
+
+    public void setFileType(String fileType) {
+        this.fileType = fileType;
+    }
+
+    public byte[] getData() {
+        return data;
+    }
+
+    public void setData(byte[] data) {
+        this.data = data;
     }
 
     public void setFile_id(int file_id) {
