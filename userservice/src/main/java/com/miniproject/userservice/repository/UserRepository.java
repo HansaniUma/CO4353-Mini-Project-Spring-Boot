@@ -9,4 +9,6 @@ import java.util.List;
 @Controller
 public interface UserRepository extends JpaRepository<User, Long> {
     List<User> findByUserNameContaining(String name);
+
+    User findByUserName(String userName);
 }
