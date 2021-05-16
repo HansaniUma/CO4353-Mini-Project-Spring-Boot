@@ -20,4 +20,8 @@ spring:
           uri: lb://USER-SERVICE
           predicates:
             - Path=/user/** , /authenticate/**
+        - id: FILE-UPLOAD-SERVICE
+          uri: lb://FILE-UPLOAD-SERVICE
+          predicates:
+            - Path=/file/**
 
