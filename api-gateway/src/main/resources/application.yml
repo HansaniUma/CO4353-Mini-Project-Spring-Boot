@@ -23,5 +23,5 @@ spring:
         - id: FILE-UPLOAD-SERVICE
           uri: lb://FILE-UPLOAD-SERVICE
           predicates:
-            - Path=/file/**
+            - Path=/teacher/** , /student/**
 
