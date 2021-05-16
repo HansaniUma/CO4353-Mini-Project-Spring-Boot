@@ -2,7 +2,7 @@ package com.miniproject.fileuploadservice.service;
 
 
 import com.miniproject.fileuploadservice.entity.TeacherFile;
-import com.miniproject.fileuploadservice.repository.FileUploadRepositoty;
+import com.miniproject.fileuploadservice.repository.TeacherFileUploadRepositoty;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,7 +12,7 @@ import java.util.List;
 public class TeacherFileUploadingService {
 
     @Autowired
-    private FileUploadRepositoty repository;
+    private TeacherFileUploadRepositoty repository;
 
     public TeacherFile saveFile(TeacherFile file){
         return repository.save(file);
