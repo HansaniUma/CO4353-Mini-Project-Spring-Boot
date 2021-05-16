@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/CO4353-Mini-Project-Spring-Boot.iml" filepath="$PROJECT_DIR$/.idea/CO4353-Mini-Project-Spring-Boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/discovery-server/discovery-server.iml" filepath="$PROJECT_DIR$/discovery-server/discovery-server.iml" />
+    </modules>
+  </component>
+</project>
