@@ -24,4 +24,12 @@ spring:
           uri: lb://FILE-UPLOAD-SERVICE
           predicates:
             - Path=/teacher/** , /student/**
+        - id: CLASS-SERVICE
+          uri: lb://CLASS-SERVICE
+          predicates:
+            - Path=/class/**
+        - id: PAYMENT-SERVICE
+          uri: lb://PAYMENT-SERVICE
+          predicates:
+            - Path=/payment/**
 
