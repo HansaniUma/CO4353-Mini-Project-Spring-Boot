@@ -1,7 +1,8 @@
 package com.ds.project.clientapp.service;
 
 import com.ds.project.clientapp.entity.StFileUpload;
-import com.ds.project.clientapp.repository.StoragePropertiesRepo;
+import com.ds.project.clientapp.repository.FileUploadRepo;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -13,31 +14,40 @@ public class stFileUploadService {
 
     public stFileUploadService() {  }
 
-    private StoragePropertiesRepo storagePropertiesRepo;
+    @Autowired
+    private FileUploadRepo repo;
 
-    public StFileUpload savefile(StFileUpload stFileUpload){
-        return StoragePropertiesRepo.save(stFileUpload);
+    public StFileUpload saveFile(StFileUpload file){
+        return repo.save(file);
+    }
+
+    public List<StFileUpload> saveFiles(List<StFileUpload> products) {
+        return repo.saveAll(products);
+    }
+
+    public List<StFileUpload> getFiles() {
+        return repo.findAll();
+    }
+
+    public StFileUpload getFileById(int id) {
+        return repo.findById(id).orElse(null);
     }
 
 
-    public Optional<StFileUpload> getFile(Integer fileId) {
-        return StoragePropertiesRepo.findById(fileId);
+    public String deleteFile(int id) {
+        repo.deleteById(id);
+        return "File removed !! " + id;
     }
 
-    public List<StFileUpload> getFiles(){
-        return StoragePropertiesRepo.findAll();
-    }
-
-    public static StFileUpload saveMultipleFile(MultipartFile file) {
-        String docname = file.getOriginalFilename();
-        try {
-            StFileUpload fileUpload = new StFileUpload();
-            return StoragePropertiesRepo.save(fileUpload);
-        }
-        catch(Exception e) {
-            e.printStackTrace();
-        }
-        return null;
+    public StFileUpload updateFile(StFileUpload file) {
+        StFileUpload existingFile = repo.findById(file.getFile_id()).orElse(null);
+        existingFile.setClass_id(file.getClass_id());
+        existingFile.setSt_id(file.getSt_id());
+        existingFile.setSubmitted_date(file.getSubmitted_date());
+        existingFile.setFileType(file.getFileType());
+        existingFile.setFileType(file.getFileType());
+        existingFile.setPath(file.getPath());
+        return repo.save(existingFile);
     }
 
 
