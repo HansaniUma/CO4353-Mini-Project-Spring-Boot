@@ -16,13 +16,13 @@ spring:
     name: PAYMENT-SERVICE
 #    datasource:
 #        driver-class-name: com.mysql.cj.jdbc.Driver
-#        url: jdbc:mysql://localhost:3306/class_structure
-#        username: root
-#        password: root
+#        url: jdbc:postgresql://localhost:5432/payment
+#        username: postgres
+#        password: abc
 #    jpa:
 #        show-sql: true
 #        hibernate:
 #            ddl-auto: update
 #        properties:
 #            hibernate:
-#                dialect : org.hibernate.dialect.MySQL5Dialect
+#                dialect : org.hibernate.dialect.PostgreSQLDialect
