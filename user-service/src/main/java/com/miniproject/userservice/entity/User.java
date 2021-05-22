@@ -19,6 +19,16 @@ public class User {
     private String password;
     private Role role;
 
+
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "teacher_id", referencedColumnName = "id")
+    private Teacher teacher;
+
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "student_id", referencedColumnName = "id")
+    private Student student;
+
     @Transient
     private String token;
+
 }
